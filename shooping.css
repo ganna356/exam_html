@@ -1,0 +1,105 @@
+.header
+{
+    background-color: rgb(0, 0, 0,0.4);
+    color: white;
+}
+.lab
+{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.la
+{
+    text-align: center;
+}
+.section
+{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 1%;
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 900px;
+    height: 440px;
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+
+section img
+{
+    width: 150px;
+    height: 140px;
+    margin-top: -3%;
+    
+}
+p{
+    margin-top: -15%;
+    margin-left: -15%;
+}
+#s{
+    margin-top: 1%;
+}
+
+.l
+{
+    text-decoration: none;
+    color: white;
+}
+footer
+{
+    background-color: rgb(0, 0, 0,0.4);
+    color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+  margin-top: -10%;
+}
+h1
+{
+    font-size: larger;
+}
+div:not(:target)
+{
+    display: none;
+}
+#p1{
+    position: relative;
+    left: 3%;
+}
+.clothes :target{
+    display: block;
+}
+footer
+{
+    background-color: rgb(0, 0, 0,0.4);
+    color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+#im{
+    width: 50px;
+    height: 50px;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+#b{
+    width: 50px;
+    height: 50px;
+    margin-left: 75%;
+    margin-top: -70px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}

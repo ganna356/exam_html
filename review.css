@@ -1,0 +1,65 @@
+table{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+  
+}
+#q1{
+    position: relative;
+    left: 110%;
+    top: -30%;
+}
+#a1{
+    position: relative;
+    top:-30%;
+    left: 110%;
+}
+#l1{
+    position: relative;
+    top:-30%;
+    left: 110%;
+}
+#l2{
+    position: relative;
+    top:-30%;
+    left: 110%;
+}
+#l3{
+    position: relative;
+    top:25% ;
+    left: -25%;
+}
+#l4{
+    position: relative;
+    top:25% ;
+    left: -25%;
+}
+#q3{
+    position: relative;
+    top:25% ;
+    left: -25%;
+}
+#a5{
+    position: relative;
+    top:25%;
+    left: -25%;
+}
+#but{
+    background-color: green;
+    position: relative;
+    top: 35%;
+    left: -50%;
+
+}
+#a2{
+    position: relative;
+    top:-30%;
+    left: 110%;
+}
+#a6{
+    position: relative;
+    top:25%;
+    left: -25%;
+}

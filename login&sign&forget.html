@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login&sign&forget.css">
+</head>
+<body>
+    <div class="container"  ><br>
+        <br>
+        <h1>Create Account</h1>
+        <br>        <br>
+       
+
+        <div class="information" id="sign">
+            <input type="text" placeholder="Enter Your User Name" id="signname" required>
+            <br>
+            <br>
+           
+
+            <input type="password" placeholder="Enter Your Password" id="signpass" required>
+            <br>
+            <br>
+           
+            <input type="text" placeholder="Enter Your Age" id="signAge">
+            <br>
+            <br>
+            <input type="tel" placeholder="Enter Your Phone Number" id="signtel">
+            <br><br><label>Gender</label>
+            <br>
+            <input name="rea" type="radio" id="redd" value="Male">
+            <label id="dd">Male</label>
+            <br>
+            <input name="rea" type="radio"id="red">
+            <label id="ddd">Female</label>
+            <button onclick="return isvalidsignup()">SignUp</button>
+            <br>
+            <br>
+            <button onclick="document.location='#log'">LogIn</button>
+
+        </div>
+    </div>
+    <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+    <div class="container" id="log">
+        <br>
+        <br>
+        <h1>Log IN</h1>
+        <br>        <br>
+        <br>
+        <br>
+        <div class="information">
+            <input type="text" placeholder="Enter Your User Name" id="logname">
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="password" placeholder="Enter Your Password" id="logpass">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="return isvalidlogin()">LogIn</button>
+            <button onclick="document.location='#for'">Forget Password</button>
+            
+            <button onclick="document.location='#log'">sign up</button>
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+    <div class="container" id="for">
+        <br>
+        <br>
+        <h1>Forget Password</h1>
+        <br>        <br>
+        <br>
+        <br>
+        <div class="information">
+            <input type="text" placeholder="Enter Your User Name" id="newname">
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="password" placeholder="Enter Your Password" id="newpass">
+            <br>
+            <br>
+            <br>
+            <br>
+           
+            <button onclick="update()">Update</button>
+            <br>
+            <br>
+            <button onclick="document.location='#log'">LogIn</button>
+    </div>
+    <script src="login&sign&forget.js"></script>
+</body>
+</html>
